@@ -16,6 +16,13 @@
 		CED21A7B28DA3B0C009965A3 /* SimonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED21A7A28DA3B0C009965A3 /* SimonTests.swift */; };
 		CED21A8528DA3B0C009965A3 /* SimonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED21A8428DA3B0C009965A3 /* SimonUITests.swift */; };
 		CED21A8728DA3B0C009965A3 /* SimonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED21A8628DA3B0C009965A3 /* SimonUITestsLaunchTests.swift */; };
+		CED21A9A28DA3E0E009965A3 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9328DA3E0B009965A3 /* lose.wav */; };
+		CED21A9B28DA3E0E009965A3 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9428DA3E0B009965A3 /* start.wav */; };
+		CED21A9C28DA3E0E009965A3 /* hiscore.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9528DA3E0C009965A3 /* hiscore.wav */; };
+		CED21A9D28DA3E0E009965A3 /* blue.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9628DA3E0C009965A3 /* blue.wav */; };
+		CED21A9E28DA3E0E009965A3 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9728DA3E0D009965A3 /* green.wav */; };
+		CED21A9F28DA3E0E009965A3 /* red.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9828DA3E0D009965A3 /* red.wav */; };
+		CED21AA028DA3E0E009965A3 /* yellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED21A9928DA3E0E009965A3 /* yellow.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		CED21A8028DA3B0C009965A3 /* SimonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED21A8428DA3B0C009965A3 /* SimonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonUITests.swift; sourceTree = "<group>"; };
 		CED21A8628DA3B0C009965A3 /* SimonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED21A9328DA3E0B009965A3 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lose.wav; path = simonSounds/lose.wav; sourceTree = "<group>"; };
+		CED21A9428DA3E0B009965A3 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = start.wav; path = simonSounds/start.wav; sourceTree = "<group>"; };
+		CED21A9528DA3E0C009965A3 /* hiscore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hiscore.wav; path = simonSounds/hiscore.wav; sourceTree = "<group>"; };
+		CED21A9628DA3E0C009965A3 /* blue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blue.wav; path = simonSounds/blue.wav; sourceTree = "<group>"; };
+		CED21A9728DA3E0D009965A3 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = green.wav; path = simonSounds/green.wav; sourceTree = "<group>"; };
+		CED21A9828DA3E0D009965A3 /* red.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = red.wav; path = simonSounds/red.wav; sourceTree = "<group>"; };
+		CED21A9928DA3E0E009965A3 /* yellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yellow.wav; path = simonSounds/yellow.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,13 @@
 		CED21A5728DA3B0A009965A3 = {
 			isa = PBXGroup;
 			children = (
+				CED21A9628DA3E0C009965A3 /* blue.wav */,
+				CED21A9728DA3E0D009965A3 /* green.wav */,
+				CED21A9528DA3E0C009965A3 /* hiscore.wav */,
+				CED21A9328DA3E0B009965A3 /* lose.wav */,
+				CED21A9828DA3E0D009965A3 /* red.wav */,
+				CED21A9428DA3E0B009965A3 /* start.wav */,
+				CED21A9928DA3E0E009965A3 /* yellow.wav */,
 				CED21A6228DA3B0A009965A3 /* Simon */,
 				CED21A7928DA3B0C009965A3 /* SimonTests */,
 				CED21A8328DA3B0C009965A3 /* SimonUITests */,
@@ -231,9 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED21A9F28DA3E0E009965A3 /* red.wav in Resources */,
+				CED21A9D28DA3E0E009965A3 /* blue.wav in Resources */,
+				CED21AA028DA3E0E009965A3 /* yellow.wav in Resources */,
+				CED21A9C28DA3E0E009965A3 /* hiscore.wav in Resources */,
 				CED21A7028DA3B0C009965A3 /* LaunchScreen.storyboard in Resources */,
 				CED21A6D28DA3B0C009965A3 /* Assets.xcassets in Resources */,
 				CED21A6B28DA3B0A009965A3 /* Main.storyboard in Resources */,
+				CED21A9B28DA3E0E009965A3 /* start.wav in Resources */,
+				CED21A9E28DA3E0E009965A3 /* green.wav in Resources */,
+				CED21A9A28DA3E0E009965A3 /* lose.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
